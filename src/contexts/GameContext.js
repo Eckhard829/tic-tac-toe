@@ -86,8 +86,6 @@ export const GameContextProvider = (props) => {
   };
 
   const updateScore = (winner, result) => {
-    // winner is always going to be:
-    // player1, player2, draw
 
     if (winner === "draw") {
       setGame((prevGame) => ({

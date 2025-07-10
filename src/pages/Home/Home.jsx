@@ -13,13 +13,13 @@ function Home() {
       <Subtitle>Play with your friends, higher score wins!</Subtitle>
       <Button
         onClick={() => {
-          clickSfx[0](); // Call the play function
-          clickSfx[1](); // Enable playback
+          clickSfx[0]();
+          clickSfx[1](); 
           navigate("/game-on");
         }}
         onMouseEnter={() => {
-          hoverSfx[0](); // Call the play function
-          hoverSfx[1](); // Enable playback
+          hoverSfx[0](); 
+          hoverSfx[1](); 
         }}
       >
         Play Now
